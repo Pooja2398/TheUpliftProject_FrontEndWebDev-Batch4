@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <center>
+            <figure>
+                <img src="fig.jpg" alt="photo">
+            </figure>
+            <div class="container">
+                <br>
+                <h1>Sports BootCamp</h1>
+                <h4><i>Play more <br>Grow more!!</i></h4>
+            </div>
+        </center>
+        <hr>
+        <div class="container1">
+            <label> Firstname </label>
+            <input type="text" name="firstname" placeholder="Firstname" size="15" required />
+            <label> Middlename: </label>
+            <input type="text" name="middlename" placeholder="Middlename" size="15" required />
+            <label> Lastname: </label>
+            <input type="text" name="lastname" placeholder="Lastname" size="15" required />
+            <div>
+                <label>Interest :</label>
+                <select>  
+                <option value="Interest">Interest..</option>  
+                <option value="Military-style bootcamp">Military-style bootcamp</option>  
+                <option value="Athletes-style bootcamp">Athletes-style bootcamp</option>  
+                <option value="Yoga-calm Style bootcamp">Yoga-calm Style bootcamp</option>
+                </select>
+            </div>
+            <div>
+                <label>Gender :</label><br>
+                <input type="radio" value="Male" name="gender" checked> Male
+                <input type="radio" value="Female" name="gender"> Female
+                <input type="radio" value="Other" name="gender"> Other
+            </div>
+            <div>
+                <label>Date Of Birth :</label>
+                <input type="date" name="DOB" required>
+            </div>
+            <div>
+                <label>Phone :</label>
+                <input type="text" name="country code" placeholder="Country Code" value="+91" size="2" />
+                <input type="text" name="phone" placeholder="phone no." size="10" / required>
+            </div>
+            <div>
+                <center>
+                    <button type="submit" class="subtn">Register</button>
+                    <button type="reset" class="reset">Reset</button>
+                </center>
+            </div>
+        </div>
+
+</body>
+
+</html>
